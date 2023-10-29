@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 20px;
+  }
+  
+  .logo img {
+    height: 60px;
+    width: 60px;
+    padding-left: 70px;
+    padding-top: 20px;
+  }
+  .nav-links{
+    padding-right: 50px;
+  }
+  .nav-links li {
+    display: inline;
+    margin-left: 20px
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  .get{
+    padding: 15px;
+    border: 2px solid #00D47E;
+    background-color: #00D47E;
+    border-radius: 50px;
+  }
+  .get:hover{
+    background-color: white;
+    color: #00D47E;
+  }
+  .gets a{
+    color: white;
+  }
+  .hero-section{
+    text-align: center;
+  }
+  h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    height: 124px;
+    padding: 60px;
+  }
+  p{
+    font-size: 17px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .started{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #00D47E;
+    background-color: #00D47E;
+    border-radius: 50px;
+  }
+  .started:hover{
+    background-color: white;
+    color: #00D47E;
+  }
+  .hero-image{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .hero-image img {
+    border: 2px solid rgb(243, 242, 243);
+    box-shadow: 1px 4px 15px 1px rgb(188, 116, 236);
+    border-radius: 20px;
+  }
+  h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 100px;
+  }
+
+/* ****** automate section here*******/
+.automate{
+    display: flex;
+    padding: 70px;
+}
+h3{
+    font-size: 55px;
+    padding-left: 50px;
+}
+.auto{
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.material-symbols-outlined{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    color: #00D47E;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.one{
+    font-size: 20px;
+}
+.hero-two{
+    padding: 300px;
+    background: linear-gradient(rgba(2, 70, 102, 0.9),rgba(3, 83, 83, 0.9) ),url(img/3-nature-wallpaper-mountain.1366.jpg);
+}
+.hero-two{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+h5{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+.two-sec{
+    color: white;
+    text-align: left;
+}
+.two-section {
+    text-decoration: none;
+    font-size: 25px;
+    color: #0e0505;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #00D47E;
+    background-color: #00D47E;
+    border-radius: 50px;
+}
+.two-section:hover{
+    background-color: white;
+    color: #00D47E;
+}
+.text-box{
+    margin-top: -80px;
+    padding-bottom: 100px;
+}
+h6{
+    text-align: center;
+    font-size: 50px;
+}
+.text-boxp {
+   text-align: center;
+}
+
+/* gallery content here *****************************/
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px;
+    font-size: 30px;
+}
+.create{
+    font-size: 30px;
+    text-align: center;
+}
+.gallery1{
+    border: 5px solid rgb(245, 239, 239);
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+}
+.gallery1 span {
+    font-size: 200px;
+color: green;
+}
+.ia{
+    text-align: center;
+}
+.third-button{
+text-align: center;
+color: #ffffff;
+}
+.access{
+    text-align: center;
+    margin-top: -100px;
+}
+.access-img{
+    text-align: center;
+    padding: 100px;
+}
+/*************** feature gallery here*************/
+.feature1{
+    border: 5px solid rgb(245, 239, 239);
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px;
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+.features2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: -100px;
+}
+.feature1 span {
+    font-size: 100px;
+color: green;
+}
+.fourth-button{
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.dolars{
+    display: flex;
+    color: white;
+}
+.twofif{ 
+    margin-left: 250px;
+    padding-left: 50px;
+    padding: 10px;
+    text-align: center;
+    border-left: 2px solid rgb(21, 255, 0);
+    font-size: 50px;
+    margin-bottom: 130px;
+}
+.backboneh{
+    text-align: left;
+    padding-left: 250px;
+    color: white;
+}
+.backbonep{
+    text-align: left;
+    padding-left: 130px;
+    margin-top: -50px;
+    color: white;
+}
+.backbone{
+    background: linear-gradient(rgba(2, 70, 102, 0.9),rgba(3, 83, 83, 0.9) ),url(img/3-nature-wallpaper-mountain.1366.jpg);
+}
+.thirdd-button{
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+.parent{
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    font-size: 30px;
+    color: white;
+}
+footer{
+    background: linear-gradient(rgba(8, 32, 43, 0.9),rgba(2, 17, 17, 0.9) ),url(img/3-nature-wallpaper-mountain.1366.jpg);
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.footerlogo{
+    font-size: 20px;
+}
+.footer-icons span{
+    border: none;
+    font-size: 60px;
+    color: white;
+}
+.foottext{
+    color: white;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+.copyright{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    padding-top: 10px;
+}
+.copyright ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding-right: 150px;
+}
+.copyright p{
+    padding-left: 150px;
+}
+
+/* ** **************    Media SEction here ***********/
+
+
+@media(max-width:768px){
+  .logo img{
+    text-align: center;
+  }
+  .logo  a img{
+    margin-left: -80px;
+  }
+  .nav-links li{
+    display: flex;
+    flex-direction: column;
+  }
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.get{
+    padding: 10px;
+    margin-top: 20px;
+}
+ .hero-section h1{
+    font-size: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.hero-section p{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 60px;
+}
+.hero-image img{
+    width: 350px;
+}
+.trusted h2{
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.icons img{
+    width: 150px;
+    text-align: center;
+}
+.automate{
+display: flex;
+flex-direction: column;
+}
+.automate .left-auto h3 {
+    text-align: left;
+    font-size: 30px;
+    margin-left: -60px;
+}
+.automate .left-auto p{
+    text-align: left;
+    margin-left: -60px;
+}
+.one{
+  
+
+}
+.material-symbols-outlined{
+margin-left: -50px;
+}
+  .sec-image img{
+    width: 300px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+.hero-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 600px;
+   
+
+}
+.hero-two .twoimage img{
+    width: 300px;
+    height: 300px;
+    align-items: start;
+    margin-left: -250px;
+    padding: -200px;
+}
+.texxt h5{
+    font-size: 40px;
+    text-align: left;
+    margin-left: -250px;
+}
+.texxt p{
+    text-align: left;
+    margin-left: -250px;
+}
+.texxt a{
+    margin-left: -200px;
+}
+.text-box h6{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+}
+.text-box p{
+    text-align: left;
+    padding-left: 40px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.gallery1{
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+}
+.gallery1 span{
+    margin-left: 10px;
+}
+.acceeess h2{
+    text-align: left;
+    font-size: 40px;
+    padding: 0;
+    padding: 30px 70px;
+    margin-bottom: 60px;
+    padding-left: -50px;
+    
+}
+.acceeess p{
+    text-align: left;
+    padding-left: 70px;
+}
+.access-img img{
+    text-align: center;
+    width: 300px;
+    margin-left: -40px;
+}
+.keeeeyy h2{
+font-size: 60px;
+}
+.keeeeyy p{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+}
+.feature1{
+    width: 300px;
+    text-align: center;
+}
+.feature1 span{
+    margin-left: 10px;
+}
+.features2{
+    display: flex;
+    flex-direction: column;
+}
+.backboneh{
+    text-align: left;
+    margin-left: -180px;
+}
+.backbonep{
+    text-align: left;
+    margin-left: -90px;
+    margin-right: 10px;
+}
+.dolars{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.twofif p{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.twofif span{
+    font-size: 50px;
+    margin-right: 40px;
+    margin-left: -250px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright ul{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: -100px;
+}
+.copyright p{
+    text-align: left;
+    margin-left: -120px;
+}
+
+.footer-icons span{
+  padding: 30px;
+}
+
+.hero-two{
+
+
+}
+.extra{
+
+}
+
+
+
+
+
+}
